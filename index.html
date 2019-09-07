@@ -41,7 +41,7 @@
             <a class="nav-link" href="#conviertete-en-orador">Convierte en orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+            <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
           </li>
         </ul>
       </div>
@@ -73,7 +73,7 @@
                   Ven a conocer a miembros del Team Platzi, a otros estudiantes
                   de Platzi y a los orsadores de primer nivel que tenemos para ti. Te esperamos!</p>
                 <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                <button type="button" class="btn btn-platzi">Comprar tickets</button>
+                <button type="button" class="btn btn-platzi"  data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
               </div>
             </div>
           </div>
@@ -167,7 +167,10 @@
         <div class="col-12 col-lg-6 pt-4 pb-4">
           <h2>Honolulu - Octubre 2025</h2>
           <p>
-            Honolulu o Honolulú​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
+            Honolulu o Honolulú​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.
+            Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se
+            refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han
+            formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
           </p>
           <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce más</a>
         </div>
@@ -251,7 +254,28 @@
   </footer>
   <!-- Fin Footer -->
 
-
+  <!-- Modal -->
+  <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Modal-->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
