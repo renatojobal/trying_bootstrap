@@ -13,9 +13,9 @@
   <title>Platzi Conf</title>
 </head>
 
-<body>
+<body data-spy="scroll" data_target="#navbar" data-offset="57">
   <!-- Header -->
-  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="assets/images/platzi-logo.png" alt="Platzi Logo">
@@ -26,19 +26,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">La conferencia</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#main">La conferencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Los oradores</a>
+            <a class="nav-link" href="#speakers">Los oradores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">El lugar y la fecha</a>
+            <a class="nav-link" href="#place-time">El lugar y la fecha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Convierte en orador</a>
+            <a class="nav-link" href="#conviertete-en-orador">Convierte en orador</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-platzi" href="#">Comprar tickets</a>
@@ -112,7 +112,7 @@
               <img class="card-img-top" src="assets/speakers/leonidas2.jpeg" alt="Foto de Leonidas">
               <div class="card-body">
                 <div class="badges">
-                  <span class="badge badge-success">Django</span>
+                  <span class="badgse badge-success">Django</span>
                 </div>
                 <h5 class="card-title">Leonidas Esteban</h5>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
@@ -162,15 +162,14 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-lg-6 pl-0 pr-0">
-          <img src="assets/images/honolulu.jpg" alt="Honululu">
+          <img src="assets/images/honolulu.jpg" alt="Honolulu" />
         </div>
         <div class="col-12 col-lg-6 pt-4 pb-4">
           <h2>Honolulu - Octubre 2025</h2>
-          <p>Honolulu o Honolulú​ es la <abbr data-toggle="tooltip" title="Lugar central de un lugar">capital</abbr> y localidad más grande del estado de Hawái, en los Estados Unidos.
-            Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu
-            se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han
-            formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
-          <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+          <p>
+            Honolulu o Honolulú​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
+          </p>
+          <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce más</a>
         </div>
       </div>
     </div>
