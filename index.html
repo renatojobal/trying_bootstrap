@@ -9,37 +9,73 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <style>
-    [class^=col] {
-      background-color: rgb(133, 133, 93);
-      border: 1px solid white;
-      height: 100px;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
   <title>Hello, world!</title>
 </head>
 
 <body>
+  <!-- Header -->
+  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <div class="row">
-            <div class="col-6 col-md bg">Fila 1/Col 1</div>
-            <div class="col-6 col-md bg">Fila 1/Col 2</div>
-            <div class="col-6 col-md bg">Fila 1/Col 3</div>
-            <div class="col-6 col-md bg">Fila 1/Col 4</div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 1</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 2</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 3</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 4</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 5</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 6</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 7</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 8</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 9</div>
-            <div class="col-12 col-md-6 col-lg">Fila 2/Col 10</div>
-        </div>
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/platzi-logo.png" alt="Platzi Logo">
+        Conf Hawaii
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Convierte en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- Fin Header-->
+
+  <!-- Footer -->
+  <footer id="footer" class="pb-4 pt-4">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-lg">
+          <a href="#">Preguntas frecuentes</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Contáctanos</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Prensa</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Términos y condiciones</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Privacidad</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Estudiantes</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin Footer -->
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
